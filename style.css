@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+h1 {
+    letter-spacing: 5px;
+    font-size: 36px !important; 
+    font-family: 'Anton', sans-serif;
+    height: 40px;
+}
+h1:hover {
+    color: #f4978e !important;
+    font-weight: bolder;
+    letter-spacing: 6px;
+}
+
+button {
+    margin-top: 20px;
+    width: 30%;
+    height: 45px;
+    font-size: 24px !important;
+    letter-spacing: 4px;
+    background-color: #f4978e;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 2px;
+}
+button:hover {
+    background-color: #f8ad9d;
+    border-style: dashed;
+}
+
+canvas {
+    border-style: dotted;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 40px;
+
+    animation-name: lights;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+    @keyframes lights {
+        15%{box-shadow: 3px 3px 20px rgb(55, 242, 255);}
+        30%{box-shadow: 3px 3px 50px rgb(255, 36, 36);}
+        45%{box-shadow: 3px 3px 90px rgb(255, 255, 55);}
+        60%{box-shadow: 3px 3px 80px rgb(102, 255, 55);}
+        75%{box-shadow: 3px 3px 60px rgb(182, 55, 255);}
+        90%{box-shadow: 3px 3px 40px rgb(255, 55, 138);}
+    }
