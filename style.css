@@ -13,7 +13,7 @@ h1:hover {
     letter-spacing: 6px;
 }
 
-button {
+#save_btn {
     margin-top: 20px;
     width: 30%;
     height: 45px;
@@ -49,3 +49,30 @@ canvas {
         75%{box-shadow: 3px 3px 60px rgb(182, 55, 255);}
         90%{box-shadow: 3px 3px 40px rgb(255, 55, 138);}
     }
+
+img {
+    width: 160px;
+    height:80px;
+    margin-top: 400px;
+    margin-left: 20px;
+}
+img:hover {
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 20px;
+    animation-name: img_lights;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes img_lights {
+        15%{box-shadow: 3px 3px 20px rgb(55, 242, 255);}
+        30%{box-shadow: 3px 3px 30px rgb(255, 36, 36);}
+        45%{box-shadow: 3px 3px 40px rgb(255, 255, 55);}
+        60%{box-shadow: 3px 3px 30px rgb(102, 255, 55);}
+        75%{box-shadow: 3px 3px 20px rgb(182, 55, 255);}
+        90%{box-shadow: 3px 3px 20px rgb(255, 55, 138);}
+    }
+
+
